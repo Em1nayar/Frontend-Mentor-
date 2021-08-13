@@ -1,0 +1,127 @@
+*{
+    font-family: 'Red Hat Display', sans-serif;
+}
+body{
+    background-color: 	#E0E8FF;
+    background-position: center center;
+}
+
+
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    width: 500px;
+    height: 700px;
+    border-radius: 27px;
+    margin: auto;
+    margin-top: 100px;
+    color: rgba(0,0,0,0.1);
+    box-shadow: -30px 30px 20px;
+}
+
+.image{
+    width: 100%;
+    height: 240px;
+    background-image: url(images/illustration-hero.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 27px 27px 0px 0px;
+}
+
+.content2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 18px;
+}
+.content2 h1{
+    color: #1F2F56;
+    text-align: center;
+}
+.content2 p{
+    color: #7280A7;
+    text-align: center;
+    font-size: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.order{
+    width :400px;
+    height: 95px;
+    background-color: #F5F7FF;
+    margin: auto;
+    display: flex;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.order img{
+    width: 55px;
+    height: 55px;
+    margin-left: 25px;
+    margin-top: 17px;
+}
+
+.info{
+    width: 100px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.order .info h4{
+    color: #1F2F56;
+}
+.order .info p{
+    padding-left: 0;
+    margin-top: -7px;
+
+}
+
+.change-button{
+    width: 100px;
+    height: 100%;
+    margin: auto;
+    margin-top: 35px;
+    margin-right: -5px;
+}
+
+.change-button b{
+    color: #776cf1;
+    cursor: pointer;
+}
+
+.buttons{
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons button{
+    background-color: #776cf1;
+    width: 400px;
+    height: 45px;
+    border: solid 0px;
+    border-radius: 15px;
+    color: #ffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buttons button b{
+    color: #ffff;
+}
+
+.buttons b{
+    margin:auto;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #1F2F56;;
+}
