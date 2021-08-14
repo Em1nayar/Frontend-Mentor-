@@ -1,0 +1,25 @@
+
+
+#PreviewCard{
+    width: 330px;
+    height: 800px;
+    flex-direction: column;
+    margin: 0 auto;    
+}
+#PreviewCard img{
+    height: 6em;
+}
+#PreviewCard p{
+    padding-right: 6em;
+}
+#PreviewCard :nth-child(1){
+    border-radius: 10px 10px 0 0;
+}
+#PreviewCard :nth-child(3){
+    border-radius: 0 0 10px 10px;
+}
+
+.button{
+
+    height: 15%;
+}

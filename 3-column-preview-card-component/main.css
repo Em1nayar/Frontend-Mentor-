@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#PreviewCard{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 5em 0;
+    border-radius: 10px;
+}
+
+#PreviewCard img{
+    height: 15%;
+    padding-left: 1em;
+    padding-top: 2em;
+}
+#PreviewCard :nth-child(1){
+    border-radius: 10px 0 0 10px;
+}
+#PreviewCard :nth-child(3){
+    border-radius: 0 10px 10px 0;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.3em;
+    color: white;
+}
+
+.content h1{
+    font-size: 45px;
+    padding-left: 0.4em;
+    padding-top: 1.2em;
+}
+
+.content p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.7em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 2.1em;
+}
+.button{
+    font-size: 16px;
+    font-family: 'Lexend Deca', sans-serif;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 40%;
+    height: 9%;
+    margin-left: 1em;
+    margin-top: 8em;
+    cursor: pointer;
+}

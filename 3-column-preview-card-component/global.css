@@ -1,0 +1,50 @@
+/*  Colors */
+
+.bg-bright-orange{
+    background:	#e38826 ;
+}
+
+.button-color-orange{
+    color: #e38826 ;
+}
+.button-hover-orange:hover{
+    background: #e38826;
+    color: white;
+    border: 2px solid white;
+}
+
+.bg-dark-cyan{
+    background: #006970;
+}
+.button-color-dark-cyan{
+    color: #006970 ;
+}
+.button-hover-dark-cyan:hover{
+    background: #006970;
+    color: white;
+    border: 2px solid white;
+}
+
+.bg-very-dark-cyan{
+    background: #004241;
+}
+.button-color-very-dark-cyan{
+    color: #004241 ;
+}
+.button-hover-very-dark-cyan:hover{
+    background: #004241;
+    color: white;
+    border: 2px solid white;
+}
+
+/* Fonts */
+
+.header{
+    font-family: 'Big Shoulders Display', cursive;;
+}
+
+.p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
